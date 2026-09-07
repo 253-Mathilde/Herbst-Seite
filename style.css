@@ -1,0 +1,250 @@
+
+body {
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#8B2500;
+ /*find more cursors at https://gafcodes.com*/ cursor:url(https://www.gafcodes.com/premade/cursors/jspunkette/cursor20.cur), default;
+}
+section{
+height:100%;
+width:100%;
+  position:absolute ;  
+}
+.leaf{
+    position:absolute ;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+.leaf div{
+position:absolute ;
+display:block ;
+}
+.leaf div:nth-child(1){
+    left:20%; 
+    animation:fall 15s linear infinite ;
+    animation-delay:-2s;
+
+}
+.leaf div:nth-child(2){
+    left:70%; 
+    animation:fall 15s linear infinite ;
+    animation-delay:-4s;
+}
+.leaf div:nth-child(3){
+    left:10%; 
+    animation:fall 20s linear infinite ;
+    animation-delay:-7s;
+    
+}
+.leaf div:nth-child(4){
+    left:50%; 
+   animation:fall 18s linear infinite ; 
+   animation-delay:-5s;
+}
+.leaf div:nth-child(5){
+    left:85%; 
+    animation:fall 14s linear infinite ;
+    animation-delay:-5s;
+}
+.leaf div:nth-child(6){
+    left:85%; 
+    animation:fall 14s linear infinite ;
+    animation-delay:-5s;
+}
+
+
+@keyframes fall{
+    0%{
+        opacity:1;
+        top:-10%;
+        transform:translateX (20px) rotate(0deg);
+    }
+    20%{
+        opacity:0.8;
+        transform:translateX (-20px) rotate(45deg);
+    }
+    40%{
+
+        transform:translateX (-20px) rotate(90deg);
+    }
+    60%{
+        
+       transform:translateX (-20px) rotate(135deg); 
+    }
+    80%{
+    
+        transform:translateX (-20px) rotate(180deg);
+    }
+    100%{
+        
+        top:110%;
+        transform:translateX (-20px) rotate(225deg);
+    }
+    }
+.leaf1{
+    transform: rotateX(180deg);
+}
+h2{
+    position:absolute ;
+    top:40%;
+    width:100%;
+	  font-family: 'Courgette', cursive;
+    font-size:400%;
+    text-align:center;
+    transform:translate ;
+    color:#fff;
+    transform:translateY (-50%);
+   font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* cr koiwaprimevera */
+   
+#text1 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+  position:absolute;
+  top:10%;
+  left:40%;
+  color:#FFF68F;
+}
+#text2 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:50%;
+  left:30%;
+  color:#FFF68F;
+}
+#text3 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:40%;
+  left:60%;
+  color:#FFF68F;
+}
+#text4 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:70%;
+  left:10%;
+  color:#FFF68F;
+}
+#text5 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+ position:absolute;
+  top:80%;
+  left:40%;
+  color:#FFF68F;
+}
+#text6 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:50%;
+  left:70%;
+  color:#FFF68F;
+}
+#text7 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:50%;
+  left:20%;
+  color:#FFF68F;
+}
+#text8 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:30%;
+  left:80%;
+  color:#FFF68F;
+}
+#text9 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:90%;
+  left:80%;
+  color:#FFF68F;
+}
+#text10 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:550%;
+  left:33%;
+  color:#FFF68F;
+}
+#text11 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:60%;
+  left:40%;
+  color:#FFF68F;
+}
+#text12 {
+ -webkit-animation: pop 1s ease-in-out infinite alternate;
+ animation: pop 1s ease-in-out infinite alternate;
+ -moz-animation: pop 1s ease-in-out infinite alternate;
+   position:absolute;
+  top:570%;
+  left:30%;
+  color:#FFF68F;
+}
+
+
+
+
+@keyframes pop {
+from {
+transform:scale(0.95)
+}
+
+50% {
+transform:scale(1)
+}
+
+to {
+transform:scale(0.95)
+}
+}
+
+@-webkit-keyframes pop {
+from {
+-webkit-transform:scale(0.95)
+
+}
+
+50% {
+-webkit-transform:scale(1)
+
+}
+
+to {
+-webkit-transform:scale(0.95)
+
+}
+}
