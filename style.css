@@ -89,7 +89,7 @@ display:block ;
 }
 h2{
     position:absolute ;
-    top:40%;
+    top:5%;
     width:100%;
 	  font-family: 'Courgette', cursive;
     font-size:400%;
@@ -107,13 +107,11 @@ h2{
 /* cr koiwaprimevera */
    
 #text1 {
- -webkit-animation: pop 1s ease-in-out infinite alternate;
- animation: pop 1s ease-in-out infinite alternate;
- -moz-animation: pop 1s ease-in-out infinite alternate;
   position:absolute;
   top:10%;
   left:40%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text2 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -123,6 +121,7 @@ h2{
   top:50%;
   left:30%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text3 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -132,6 +131,7 @@ h2{
   top:40%;
   left:60%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text4 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -141,6 +141,7 @@ h2{
   top:70%;
   left:10%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text5 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -150,6 +151,7 @@ h2{
   top:80%;
   left:40%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text6 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -159,6 +161,7 @@ h2{
   top:50%;
   left:70%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text7 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -168,6 +171,7 @@ h2{
   top:50%;
   left:20%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text8 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -177,6 +181,7 @@ h2{
   top:30%;
   left:80%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text9 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -186,15 +191,17 @@ h2{
   top:90%;
   left:80%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text10 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
  animation: pop 1s ease-in-out infinite alternate;
  -moz-animation: pop 1s ease-in-out infinite alternate;
    position:absolute;
-  top:550%;
+  top:55%;
   left:33%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text11 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -204,6 +211,7 @@ h2{
   top:60%;
   left:40%;
   color:#FFF68F;
+   text-decoration: none;
 }
 #text12 {
  -webkit-animation: pop 1s ease-in-out infinite alternate;
@@ -213,6 +221,7 @@ h2{
   top:570%;
   left:30%;
   color:#FFF68F;
+   text-decoration: none;
 }
 
 
@@ -247,4 +256,7 @@ to {
 -webkit-transform:scale(0.95)
 
 }
-}
+
+
+
+
